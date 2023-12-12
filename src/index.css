@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnResume {
+    color: skyblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid skyblue;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+  
+  .btnResume:hover {
+    color: yellow;
+  }
+  
+  .btnResume::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: skyblue;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+  
+  .btnResume:hover::before {
+    width: 160%;
+  }

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/9M0pkFyc/Screenshot-60.png",
+      "title": "SkillSwapHub",
+      "description": "This is a platform where users can post job offers, and other users, who are employers, can apply to the posted jobs. When a user adds a job offer, it appears on the site's homepage. Employers can send bid requests, and the user who posted the job can accept or reject the bid requests.",
+      "repo": "https://github.com/Mujahidul-Islam11/skill-swap-hub",
+      "live": "https://skillswaphub-6e7fd.web.app/"
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/rpmGcQX2/Screenshot-62.png",
+      "title": "YooSurvey",
+      "description": "This is a platform where users can join, create, and upgrade with ease! Express opinions, access premium features, and enjoy a seamless user experience. Dive into our user-friendly design for a dynamic survey platform.",
+      "repo": "https://github.com/Mujahidul-Islam11/yoo-survey-client",
+      "live": "https://car-doctor-bc7cb.web.app/"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/76KRCWnZ/Screenshot-59.png",
+      "title": "EntoMedu",
+      "description": "This is a platform where you can welcome to EntoMedu! Add your category products, and you can also update them if you want. Explore your favorite movie series products, add to cart, and enjoy the EntoMedu site.",
+      "repo": "https://github.com/Mujahidul-Islam11/brand-shop-client",
+      "live": "https://cosmic-pie-c055cc.netlify.app/"
+    }
+  ]
+  
