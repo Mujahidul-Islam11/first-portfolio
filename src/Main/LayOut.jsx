@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "../Component/Navbar/Navbar";
 import Footer from "../Component/Footer/Footer";
+import Home from "../Component/Home/Home";
+import Headroom from "react-headroom";
 
 
 const LayOut = () => {
     return (
         <div>
+            <Headroom>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            </Headroom>
+            <Home></Home>
             <Footer></Footer>
         </div>
     );

@@ -6,23 +6,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LayOut from './Main/LayOut';
-import Skills from "./Component/Skills/Skills"
 import Home from './Component/Home/Home';
+import About from './Component/About/About';
+import Skills from './Component/Skills/Skills';
+import Contact from './Component/Contact/Contact';
+import Projects from './Component/Projects/Projects';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LayOut></LayOut>,
-    children: [
-      {
-        path: "/",
-        element: <Home></Home>
-      },
-      {
-        path: "/Skills",
-        element: <Skills></Skills>
-      }
-    ]
   },
 ]);
 

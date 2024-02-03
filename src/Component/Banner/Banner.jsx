@@ -19,7 +19,7 @@ const Banner = () => {
                 between form and function. I am also familiar with some basics
                 of back end tools like expressJs, NodeJs and MongoDB
               </h2>
-              <a href="../../../public/SCIC ASSIGNMENT NUMBER TWO.pdf" download={'SCIC ASSIGNMENT NUMBER TWO.pdf'}><button className="btnResume mt-5">
+              <a href="https://drive.google.com/uc?export=download&id=1gi57Crpb10JxDrCEmpintZjL6M5JXo9e" download={'SCIC ASSIGNMENT NUMBER TWO.pdf'}><button className="btnResume mt-5">
                 Download Resume
               </button></a>
             </div>

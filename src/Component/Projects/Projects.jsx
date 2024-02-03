@@ -10,7 +10,7 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="grid md:grid-cols-3 gap-6 px-5 md:px-0">
+    <div id="Projects" className="grid md:grid-cols-3 gap-6 px-5 md:px-0">
       {Projects?.map((pro) => (
         <div key={pro.id}>
           <div className="card bg-base-100 shadow-xl">

@@ -7,7 +7,7 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
-        <div>
+        <div id="Home">
             <Banner></Banner>
             <div className="py-6 container mx-auto">
             <h3 className="text-5xl font-bold text-center mt-24 text-[#6c4cdc] mb-10"><i>About Me</i></h3>

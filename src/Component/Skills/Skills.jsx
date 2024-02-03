@@ -17,7 +17,7 @@ const Skills = () => {
     },[])
 
   return (
-    <div className="container mx-auto my-6 md:flex justify-between">
+    <div id="Skills" className="container mx-auto my-6 md:flex justify-between">
         <div>
         <h3 className="px-5 md:px-0 text-3xl text-white mb-3">Front End</h3>
         <div className="px-5 md:px-0 flex gap-6">

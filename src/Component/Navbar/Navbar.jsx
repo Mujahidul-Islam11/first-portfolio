@@ -1,11 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { HashLink as NavLink } from "react-router-hash-link";
 
 const Navbar = () => {
+  
   const links=(
     <>
        <li>
        <NavLink
-        to="/"
+       smooth
+        to="#Home"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? " text-[#F4CE14] font-bold border-y-4 border-[#6c4cdc] " : ""
         }
@@ -15,7 +17,8 @@ const Navbar = () => {
         </li>
       <li>
       <NavLink
-        to="/About"
+      smooth
+        to="#About"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? " text-[#F4CE14] font-bold border-y-4 border-[#6c4cdc]" : ""
         }
@@ -25,7 +28,8 @@ const Navbar = () => {
       </li>
       <li>
       <NavLink
-        to="/Skills"
+      smooth
+        to="#Skills"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? " text-[#F4CE14] font-bold border-y-4 border-[#6c4cdc] " : ""
         }
@@ -35,7 +39,8 @@ const Navbar = () => {
       </li>
       <li>
       <NavLink
-        to="/Projects"
+      smooth
+        to="#Projects"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? " text-[#F4CE14] font-bold border-y-4 border-[#6c4cdc] " : ""
         }
@@ -45,7 +50,8 @@ const Navbar = () => {
       </li>
       <li>
       <NavLink
-        to="/Contact"
+      smooth
+        to="#Contact"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? " text-[#F4CE14] font-bold border-y-4 border-[#6c4cdc] " : ""
         }
@@ -56,7 +62,7 @@ const Navbar = () => {
         </>
   )
   return (
-    <div className="md:w-[1200px] navbar flex justify-between bg-base-100 mx-auto">
+    <div className=" navbar flex justify-between bg-base-100 z-50">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -66,8 +72,8 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <div className={'flex justify-center'}>
-    <img src="https://i.postimg.cc/jdPZ61hH/MOJAHIDUL-ISLAM-1-removebg-preview.png" className="w-28" alt="" />
+    <div className={'flex justify-center items-center'}>
+    <img src="https://i.postimg.cc/jdPZ61hH/MOJAHIDUL-ISLAM-1-removebg-preview.png" className="w-16 md:w-20" alt="" />
 </div>
   </div>
   <div className="navbar-center hidden lg:flex">
